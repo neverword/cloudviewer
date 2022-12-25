@@ -1,0 +1,18 @@
+.otherall_box {
+  height: 100%;
+  padding-top: 20px ;
+  background: #e3e3e3;
+  background-clip: border-box;
+}
+.otherall_box .before_box {
+  height: 12px;
+}
+.otherall_box .items_box {
+  margin-left: 60px;
+  display: flex;
+  height: 100%;
+  flex-flow: wrap;
+}
+.otherall_box .after_box {
+  height: 96px;
+}

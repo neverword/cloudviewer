@@ -1,0 +1,62 @@
+.item_box {
+  flex: 0 0 200px;
+  height: 300px;
+  overflow: hidden;
+  background: #FFFFFF;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 16px;
+}
+.item_box:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.item_box .item_img {
+  margin: 10px;
+  margin-top: 20px;
+  width: 180px;
+  height: 120px;
+  background: #dcdcdc;
+  border-radius: 5px;
+}
+.item_box .item_img img {
+  height: 100%;
+}
+.item_box .item_name {
+  height: 30px;
+}
+.item_box .item_name .item_title {
+  margin: 2px 10px 2px 10px;
+  font-size: 26px;
+  line-height: 26px;
+}
+.item_box .item_notice {
+  height: 80px;
+  margin: 0px 10px 0px 10px;
+}
+.item_box .item_bottom {
+  height: 40px;
+}
+.item_box .item_bottom .fix_bottom {
+  display: flex;
+  margin: 4px 5px 4px 5px;
+  height: 32px;
+}
+.item_box .item_bottom .fix_bottom .choice_bottom {
+  flex: 1;
+  padding: 6px;
+  border-radius: 50%;
+  transition-duration: 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item_box .item_bottom .fix_bottom .choice_bottom img {
+  height: 100%;
+}
+.item_box .item_bottom .fix_bottom .choice_bottom:hover {
+  background: #f0efef;
+}
+.item_box .item_bottom .fix_bottom .fake_box {
+  width: 7.5px;
+}

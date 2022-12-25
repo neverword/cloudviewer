@@ -1,0 +1,10 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.app_box{
+  display:flex;
+  min-height: 1000px;
+  
+}

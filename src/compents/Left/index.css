@@ -1,0 +1,34 @@
+.left_box {
+  flex: 0 0 80px;
+  background-color: #ffffff;
+}
+.left_box .left_fix {
+  position: fixed;
+  top: 69px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 100%;
+  margin-top: 5px;
+}
+.left_box .left_fix .class_left {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+.left_box .left_fix .class_left .class_one {
+  padding: 24px;
+  background-color: #ffffff;
+  transition-duration: 0.2s;
+}
+.left_box .left_fix .class_left .class_one img {
+  width: 100%;
+}
+.left_box .left_fix .class_left .class_one:hover {
+  padding: 20px;
+  background: #d7d7d7b7;
+}
+.left_box .left_fix #fake_box {
+  flex: 1;
+}
